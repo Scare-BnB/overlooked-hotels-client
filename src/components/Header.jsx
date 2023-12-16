@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ASSETS from "./assets/Assets";
+import ASSETS from "../assets/Assets";
 
 export default function Header() {
     return (
