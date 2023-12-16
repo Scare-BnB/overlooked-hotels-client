@@ -1,8 +1,22 @@
-# React + Vite
+![Overlooked Hotels Logo](./src/assets/logo.png)
+# Client side (Front End) repository
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Overview
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tech Stack
+**Language**: 
+- Javascript
+
+**Framework**: 
+- React
+
+**Development Server**: 
+- Vite
+
+**Packages**: 
+- react-router-dom
+- Tailwind CSS
+- Daisy UI
+
