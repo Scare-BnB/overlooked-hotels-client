@@ -1,4 +1,4 @@
-import ASSETS from "../assets/Assets"
+import {Link} from "react-router-dom";
 
 export default function IndexPage() {
     return (
@@ -26,30 +26,32 @@ export default function IndexPage() {
               <li><a>sdfsdf</a></li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">The Overlooked Hotels Logo</a>
-          {/* <Link to="/" img src={ASSETS.logo} alt="Logo" /></Link> */}
+          <Link to={"/"} className="btn btn-ghost text-xl">The Overlooked Hotels Logo</Link>
+          
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
+            <li><Link to={"/"}>Home</Link></li>
+            {/* The About link will jump to home page for now until I add jump to specific part of page */}
+            <li><Link to={"/"}>About</Link></li>
             <li>
               <details>
                 <summary>Locations</summary>
                 <ul className="p-2">
-                  <li><a>The Grand Lodge</a></li>
-                  <li><a>The Wilkes Cabin</a></li>
-                  <li><a>The Fairvale Motel</a></li>
+                  {/* These links will temporarily link to the base Locations page until I implement specific part of page */}
+                  <li><Link to={"/locations"}>The Grand Lodge</Link></li>
+                  <li><Link to={"/locations"}>The Wilkes Cabin</Link></li>
+                  <li><Link to={"/locations"}>The Fairvale Motel</Link></li>
                 </ul>
               </details>
             </li>
-            <li><a>Contact</a></li>
-            <li><a>Bookings</a></li>
+            <li><Link to={"/contact"}>Contact</Link></li>
+            <li><Link to={"/bookings"}>Bookings</Link></li>
        
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn" link to={"/login"}>Sign In</a>
+          <Link to={"/login"} className="btn" >Sign In</Link>
         </div>
       </div>
     )
