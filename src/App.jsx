@@ -5,16 +5,20 @@ import LoginPage from './pages/LoginPage';
 import LocationsPage from './pages/LocationsPage';
 import ContactPage from './pages/ContactPage';
 import BookingsPage from './pages/BookingsPage';
+import Layout from './Layout';
 
 function App() {
   
   return (
     <Routes>
-      <Route index element={<IndexPage />} />
-      <Route path="/login" element={<LoginPage />} />
-      <Route path="/locations" element={<LocationsPage />} />
-      <Route path="/contact" element={<ContactPage />} />
-      <Route path="/bookings" element={<BookingsPage />} />
+      <Route path="/" element={<Layout />}>
+        <Route index element={<IndexPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/locations" element={<LocationsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/bookings" element={<BookingsPage />} />
+      </Route>
+      
     </Routes>
 
     
