@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ASSETS from "./assets/Assets";
 
 export default function Header() {
     return (
@@ -26,11 +27,12 @@ export default function Header() {
               <li><a>sdfsdf</a></li>
             </ul>
           </div>
-          <Link to={"/"} className="btn btn-ghost text-xl">The Overlooked Hotels Logo</Link>
-          
+          {/* This is the logo for the navbar */}
+          <Link to={"/"} className="logo p-5 py-4"><img src={ASSETS.logo} alt='The Overlooked Hotels Logo'/></Link>
+
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-20">
             <li><Link to={"/"}>Home</Link></li>
             {/* The About link will jump to home page for now until I add jump to specific part of page */}
             <li><Link to={"/"}>About</Link></li>

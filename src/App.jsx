@@ -8,6 +8,7 @@ import ContactPage from './pages/ContactPage';
 import BookingsPage from './pages/BookingsPage';
 import Layout from './Layout';
 
+
 function App() {
   
   return (
