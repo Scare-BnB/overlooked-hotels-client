@@ -18,5 +18,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 **Packages**: 
 - react-router-dom
 - Tailwind CSS
-- Daisy UI
+- Daisy UI (Header and Footer)
 
