@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import ASSETS from "../assets/Assets";
 import OverlookedLogo from "../assets/logo.png"
 
 export default function Header() {
