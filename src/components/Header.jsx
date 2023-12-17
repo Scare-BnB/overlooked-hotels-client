@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import ASSETS from "../assets/Assets";
+import OverlookedLogo from "../assets/logo.png"
 
 export default function Header() {
     return (
@@ -29,7 +30,13 @@ export default function Header() {
             </ul>
           </div>
           {/* This is the logo for the navbar */}
-          <Link to={"/"} className="logo p-5 py-4"><img src={ASSETS.logo} alt='The Overlooked Hotels Logo'/></Link>
+          <Link to={"/"} className="logo p-5 py-4">
+          <img
+          src={OverlookedLogo}
+          alt="Overlooked Hotels Logo"
+          className="h-10 sm:h-10 md:h-12 lg:h-16"
+        />
+          </Link>
 
         </div>
         {/* This is the main centred navbar for desktop view */}
