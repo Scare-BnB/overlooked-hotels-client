@@ -12,7 +12,7 @@ export default function IndexPage() {
       <div className="flex flex-col min-h-screen">
       <HomeHero />
       
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen md:flex justify-end translate-y-2 translate-x-0 -mb-8">
       <Footer />
       </div>
       </div>
