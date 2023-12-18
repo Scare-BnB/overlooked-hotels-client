@@ -6,14 +6,14 @@ import RegisterPage from './pages/RegisterPage';
 import LocationsPage from './pages/LocationsPage';
 import ContactPage from './pages/ContactPage';
 import BookingsPage from './pages/BookingsPage';
-import Layout from './Layout';
+
 
 
 function App() {
   
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/">
         <Route index element={<IndexPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
