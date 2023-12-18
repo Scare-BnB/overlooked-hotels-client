@@ -1,21 +1,23 @@
 import { Link } from "react-router-dom";
 
+
 export default function ContactPage() {
     return (
-        <div className="hero min-h-screen ">
+
+        <div className="hero max-h-screen py-64 ">
         <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
       <form className="card-body">
-        <div className="form-control">
+        <div className="form-control ">
           <label className="label">
             <span className="label-text">Message</span>
           </label>
-          <input type="email" placeholder="Type message here" className="input input-bordered" required />
+          <input type="message" placeholder="Type message here" className="input input-bordered" required />
         </div>
         <div className="form-control">
     
         </div>
-        <div className="form-control mt-6">
+        <div className="form-control mt-8">
           <button className="btn btn-primary">Submit</button>
         </div>
       </form>
