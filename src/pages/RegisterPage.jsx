@@ -1,21 +1,22 @@
 import { Link } from "react-router-dom";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import RegisterForm from "../components/RegisterForm";
+
 
 export default function RegisterPage() {
     return (
-        <div className="mt-4 grow flex items-center justify-around">
-            <div className="-mt-64">
-            <h1 className="text-4xl text-center mb-4">Register an account</h1>
-            <form className="max-w-md mx-auto">
-                <input type="first name" placeholder="First name" />  <input type="last name" placeholder="Last name" />
-                <input type="email" placeholder="youremail@email.com" />
-                <input type="password" placeholder="Password" />
-                <button className="primary">Create new account</button>
-                <div className="text-center py-2 max-w-md mx-auto">
-                    Already have an account? <Link className="underline text" to={"/login"}>Login</Link>
-            </div>
-        </form>
-        </div>
+      <div className="flex flex-col min-h-screen">
+      <Header />
+     
+      <div className="flex flex-col min-h-screen">
+      <RegisterForm/>
+      
+      <div className="flex flex-col min-h-screen md:flex justify-end translate-y-2 translate-x-0 -mb-8">
+      <Footer />
       </div>
-    
+      </div>
+      </div>
+
     );
 }
