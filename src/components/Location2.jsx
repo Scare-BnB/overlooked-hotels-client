@@ -5,7 +5,7 @@ export default function Location2() {
     
       <div className="hero py-32">
       <div className="hero-content grid md:grid-cols-2 gap-8">
-      <div className="order-2">
+      <div className="order-1">
         {/* <img
           src={hero_img}
           className=""
@@ -21,7 +21,9 @@ export default function Location2() {
         </p>
         <Link to={"/bookings"} className="btn btn-primary mt-4" >Book now</Link>
       </div>
-    </div>
-</div>
+      </div>
+      </div>
+
+
     );
 }
