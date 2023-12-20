@@ -5,7 +5,8 @@ export default function Location2() {
     
       <div className="hero py-32">
       <div className="hero-content grid md:grid-cols-2 gap-8">
-      <div className="order-1">
+      <div className="object-left">
+ 
         {/* <img
           src={hero_img}
           className=""
