@@ -5,11 +5,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function ReviewCarousel() {
   return (
-    <div className="grid lg:flex align-items-center py-12 bg-neutral text-neutral-content">
+    <div className="flex align-items-center py-12 bg-neutral text-neutral-content">
     <Carousel
         showThumbs={false}
         showIndicators={false}
-        showStatus={true}
+        showStatus={false}
         infiniteLoop
 
     
