@@ -18,5 +18,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 **Packages**: 
 - react-router-dom
 - Tailwind CSS
-- Daisy UI (Header and Footer)
+- Daisy UI (Header and Footer elements)
+- react-responsive-carousel
+- react-calendar
+- Axios
+
+**Software**:
+- Postman
+- Pixelmator Pro 
+- Figma
+
+**Resources**:
+Stock images from Unsplash:
+Thanks to: 
+- Nick Hillier
+- Clay Banks
+- Steve Harvey
+- Dylan Fout
+- Mathis Jrdl
+- Eberhard Grossgasteiger
+
+
 
