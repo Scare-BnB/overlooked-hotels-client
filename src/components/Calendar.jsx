@@ -1,16 +1,16 @@
-import { useState } from 'react';
-import Calendar from 'react-calendar';
+// import { useState } from 'react';
+// import Calendar from 'react-calendar';
 
-type ValuePiece = Date | null;
+// type ValuePiece = Date | null;
 
-type Value = ValuePiece | [ValuePiece, ValuePiece];
+// type Value = ValuePiece | [ValuePiece, ValuePiece];
 
-function Calendar() {
-  const [value, onChange] = useState<Value>(new Date());
+// function Calendar() {
+//   const [value, onChange] = useState<Value>(new Date());
 
-  return (
-    <div>
-      <Calendar onChange={onChange} value={value} />
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <Calendar onChange={onChange} value={value} />
+//     </div>
+//   );
+// }

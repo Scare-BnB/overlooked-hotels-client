@@ -1,14 +1,20 @@
+
 export default function AboutHero() {
     return (
-        <div className="hero min-h-screen">
-        <div className="hero-content text-center">
-          <div className="max-w-md">
-            <h1 className="text-5xl font-bold">About Us</h1>
-            <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-           
-          </div>
-        </div>
+     
+      <div className="hero py-32">
+      <div className="hero-content grid md:grid-cols-1 justify-content-center gap-8">
+      <div>
+        <h1 className="text-3xl font-bold leading-normal text-white text-center">
+          About Us
+        </h1>
+        <p className="py-6 text-gray-300">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        </p>
+   
       </div>
+    </div>
+</div>
     
     );
 }
