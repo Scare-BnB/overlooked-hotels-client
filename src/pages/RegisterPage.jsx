@@ -12,7 +12,7 @@ export default function RegisterPage() {
       <div className="flex flex-col min-h-screen">
       <RegisterForm/>
       
-      <div className="flex flex-col min-h-screen md:flex justify-end translate-y-2 translate-x-0 -mb-8">
+      <div className="flex flex-col max-h-screen md:flex justify-end translate-y-64 translate-x-0">
       <Footer />
       </div>
       </div>
