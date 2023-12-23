@@ -25,39 +25,53 @@ export default function LoginPage() {
     }
   };
   return (
-    <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="text-center lg:text-center"></div>
-
-        <div className="mt-4 grow flex items-center justify-around">
-          <div className="-mt-64">
-            <h1 className="text-4xl text-center mb-4">Login</h1>
-            <form className="max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="youremail@email.com"
-                value={email}
-                onChange={(event) => setEmail(event.target.value)}
-              />
-              <input
-                type="password"
-                placeholder="Password"
-                value={password}
-                onChange={(event) => setPassword(event.target.value)}
-              />
-              <button type="button" onClick={Login} className="primary">
-                Login
-              </button>
+    <div className="hero min-h-screen">
+    <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+        <form className="card-body">
+          <h1 className="text-4xl text-center mb-8">Log In</h1>
+        
+          
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Email address</span>
+            </label>
+            <input
+              type="email"
+              placeholder="Email"
+              className="input input-bordered"
+              required
+              onChange={(event) => setEmail(event.target.value)}
+            />
+             <div className="form-control">
+            <label className="label">
+              <span className="label-text">Password</span>
+            </label>
+            <input
+              type="password"
+              placeholder="Password"
+              className="input input-bordered"
+              required
+              onChange={(event) => setPassword(event.target.value)}
+            />
+            </div>
+          
+            
               <div className="text-center py-2 max-w-md mx-auto">
-                Don't have an account?{" "}
-                <Link className="underline text" to={"/register"}>
-                  Register now
-                </Link>
+            Don't have an account? <Link className="underline text" to={"/register"}>Register</Link>
               </div>
-            </form>
+            
           </div>
+          <div className="form-control mt-6">
+          <button type="button" onClick={Login} className="btn btn-primary">
+              Log In</button>
+          </div>
+        </form>
+
+     
         </div>
       </div>
     </div>
+   
   );
 }

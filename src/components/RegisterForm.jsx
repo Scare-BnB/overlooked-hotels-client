@@ -29,8 +29,8 @@ export default function RegisterPage() {
     }
   };
   return (
-    
-    <div className="hero max-h-screen py-64 ">
+    // Page content
+    <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <form className="card-body">
@@ -90,7 +90,7 @@ export default function RegisterPage() {
               
             </div>
             <div className="form-control mt-6">
-            <button type="button" onClick={Register} className="primary">
+            <button type="button" onClick={Register} className="btn btn-primary">
                 Create Account</button>
             </div>
           </form>
