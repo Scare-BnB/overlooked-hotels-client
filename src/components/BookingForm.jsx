@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 export default function BookingForm() {
   return (
     <div className="hero max-h-screen py-64 ">
