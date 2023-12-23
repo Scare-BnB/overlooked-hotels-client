@@ -10,7 +10,7 @@ export default function ContactForm() {
         <label className="label">
           <span className="label-text">Message</span>
         </label>
-        <input type="message" placeholder="Type message here" className="input input-bordered" required />
+        <input type="message" placeholder="Type message here"className="input input-bordered h-40" required />
       </div>
       <div className="form-control">
   
@@ -36,7 +36,7 @@ export default function ContactForm() {
                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                           </svg>
                           <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                              jack@overlookedhotels.com
+                              ajdnfajndjdans@sdjnks.com
                           </div>
                       </div>
                  
