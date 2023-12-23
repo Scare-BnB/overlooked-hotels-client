@@ -7,12 +7,12 @@ export default function BookingForm() {
   const [locationId, setLocationId] = useState(null);
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
-  const [accomodations, setAccomodations] = useState([]);
+  const [accommodations, setAccommodations] = useState([]);
 
   useEffect(() => {
     axiosClient.get("/locations/all")
       .then((response) => {
-        setAccomodations(response.data);
+        setAccommodations(response.data);
       })
       .catch((error) => {
         console.error(error);
@@ -45,7 +45,7 @@ export default function BookingForm() {
                 onChange={(e) => setLocationId(e.target.value)}
               >
                 <option value={null}>Select Location</option>
-                {accomodations.map(a => <option key={a._id} value={a._id}>{a.name}</option>)}
+                {accommodations.map(a => <option key={a._id} value={a._id}>{a.name}</option>)}
               </select>
             </div>
 
