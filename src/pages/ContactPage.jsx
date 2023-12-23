@@ -5,7 +5,6 @@ export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen mb-5">
       <ContactForm />
-
       <ReviewCarousel />
     </div>
   );

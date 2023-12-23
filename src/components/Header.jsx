@@ -45,14 +45,8 @@ export default function Header() {
           >
             <li><Link to={"/"}>Home</Link></li>
             <li><Link to={"/"}>About</Link></li>
-            <li>
-              <a>Locations</a>
-              <ul className="p-2">
-                <li><Link to={"/locations"}>The Grand Lodge</Link></li>
-                <li><Link to={"/locations"}>The Wilkes Cabin</Link></li>
-                <li><Link to={"/locations"}>The Fairvale Motel</Link></li>
-              </ul>
-            </li>
+            <li><Link to={"/locations"}>Locations</Link></li>
+         
 
             {signedIn ? (
               <li>
@@ -77,7 +71,6 @@ export default function Header() {
               <></>
             )}
             
-
             <li><Link to={"/contact"}>Contact</Link></li>
           </ul>
         </div>
@@ -97,17 +90,7 @@ export default function Header() {
           <li><Link to={"/"}>Home</Link></li>
           {/* The About link will jump to home page for now until I add jump to specific part of page */}
           <li><Link to={"/"}>About</Link></li>
-          <li>
-            <details>
-              <summary>Locations</summary>
-                <ul className="p-2" style={{'zIndex': '100'}}>
-                {/* These links will temporarily link to the base Locations page until I implement specific part of page */}
-                <li><Link to={"/locations"}>The Grand Lodge</Link></li>
-                <li><Link to={"/locations"}>The Wilkes Cabin</Link></li>
-                <li><Link to={"/locations"}>The Fairvale Motel</Link></li>
-              </ul>
-            </details>
-          </li>
+          <li><Link to={"/locations"}>Locations</Link></li>
           <li><Link to={"/contact"}>Contact</Link></li>
           
 

@@ -7,14 +7,10 @@ export default function IndexPage() {
   return (
     <div className="flex flex-col min-h-screen mb-5">
       <TopCarousel />
-
-      <div>
-        <HomeHero />
-
-        
-          <ReviewCarousel />
-        </div>
+      <HomeHero />
+      <ReviewCarousel />
       </div>
+      
     
   );
 }

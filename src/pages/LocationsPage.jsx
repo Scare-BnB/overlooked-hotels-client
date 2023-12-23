@@ -7,16 +7,9 @@ export default function LocationsPage() {
   return (
     <div className="flex flex-col min-h-screen mb-5">
       <Location1 />
-
-    
-        <Location2 />
-
-        <div>
-          <Location3 />
-
-          <ReviewCarousel />
-        </div>
-      </div>
-    
+      <Location2 />
+      <Location3 />
+      <ReviewCarousel />
+    </div>
   );
 }
