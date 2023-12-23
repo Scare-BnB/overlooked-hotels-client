@@ -22,10 +22,7 @@ export default function IndexPage() {
           <div className="flex flex-col min-h-screen">
             <ReviewCarousel />
 
-            {/* <div className="flex flex-col min-h-screen md:flex justify-end translate-y-1 translate-x-0 -mb-4"> */}
-            {/* <div className="flex flex-col max-h-screen md:flex justify-end translate-y-64 translate-x-0">
-              <Footer />
-            </div> */}
+          
           </div>
         </div>
       </div>
