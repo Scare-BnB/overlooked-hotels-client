@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import axiosClient from "../utils/axios";
 import { useState } from "react";
 
-// # Setting useState for email and password.
+// # Setting useState for first name, last name, email and password.
 export default function RegisterPage() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -90,7 +90,8 @@ export default function RegisterPage() {
               
             </div>
             <div className="form-control mt-6">
-              <button className="btn btn-primary">Create Account</button>
+            <button type="button" onClick={Register} className="primary">
+                Create Account</button>
             </div>
           </form>
 
