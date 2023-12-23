@@ -10,7 +10,7 @@ export default function IndexPage() {
     <div className="flex flex-col min-h-screen mb-5">
       <TopCarousel />
       <HomeHero />
-      
+      {/* Image to break up page a bit */}
       <img src={HomeBreak} alt="Winding Road" className="w-full h-auto bg-zinc-900"/>
       
       <AboutHero />

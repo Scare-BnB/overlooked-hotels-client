@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import FairvaleInterior1 from "../assets/location_images/fairvaleinterior1.jpg";
-import Fairvale3 from "../assets/location_images/fairvale3.jpg"
+import Fairvale3 from "../assets/location_images/fairvale3.jpg";
 
 export default function Location3() {
   return (
     <div className="hero py-16">
       <div className="hero-content grid md:grid-cols-2 gap-8">
         <div className="order-2">
+          {/* Image carousel */}
           <Carousel
             showThumbs={true}
             showIndicators={true}
@@ -22,7 +23,7 @@ export default function Location3() {
             </div>
           </Carousel>
         </div>
-
+        {/* main written content*/}
         <div>
           <h1 className="text-3xl font-bold leading-normal text-white">
             The Fairvale Motel (Fairvale, CA)
@@ -36,15 +37,13 @@ export default function Location3() {
             convenience. Stop for some gas, a slice of pie and some shut-eye
             today at The Fairvale Motel.
           </p>
-          <p className="text-xl font-bold py-2 text-gray-300">
-          Features
-        </p>
-        <p className=" text-gray-300">
-          <li>Budget-friendly and comfortable rooms</li>
-          <li>Parking right outside your door</li>
-          <li>Killer location just off the highway</li>
-          <li>Gas-station and diner</li>
-        </p>
+          <p className="text-xl font-bold py-2 text-gray-300">Features</p>
+          <p className=" text-gray-300">
+            <li>Budget-friendly and comfortable rooms</li>
+            <li>Parking right outside your door</li>
+            <li>Killer location just off the highway</li>
+            <li>Gas-station and diner</li>
+          </p>
           <Link to={"/login"} className="btn btn-primary mt-8">
             Book now
           </Link>

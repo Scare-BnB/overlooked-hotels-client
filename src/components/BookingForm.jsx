@@ -1,8 +1,7 @@
-import { Link } from "react-router-dom";
 import axiosClient from "../utils/axios";
 import { useState, useEffect } from "react";
 
-
+//  Setting useState for location, start/end date and accomodations
 export default function BookingForm() {
   const [locationId, setLocationId] = useState(null);
   const [startDate, setStartDate] = useState(null);
@@ -18,7 +17,7 @@ export default function BookingForm() {
         console.error(error);
       })
   }, []);
-
+// Async/await function for axios
   const makeBooking = async () => {
     const confirmBooking = (await axiosClient.post("/bookings/", {
       location: locationId,
@@ -26,7 +25,7 @@ export default function BookingForm() {
       endDate: endDate,
     })).data;
   };
-
+// main body of form
   return (
     <div className="hero max-h-screen py-64">
       <div className="hero-content flex-col lg:flex-row-reverse absolute top-20">

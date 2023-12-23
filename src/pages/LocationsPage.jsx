@@ -9,6 +9,7 @@ export default function LocationsPage() {
     <div className="bg-zinc-900">
     <div className="flex flex-col min-h-screen mb-5">
       <TopCarousel />
+      {/* Individual location components */}
       <Location1 />
       <Location2 />
       <Location3 />

@@ -3,6 +3,7 @@ import OverlookedLogo from "../assets/logo.png";
 import { signOffUser, isUserSignedIn, isUserAdmin } from "../utils/user";
 import { useState, useEffect } from "react";
 
+// set useState for signed in and is user admin
 export default function Header() {
   const [signedIn, setSignedIn] = useState(false);
   const [isAdmin, setIsAdmin] = useState(false);
@@ -13,11 +14,11 @@ export default function Header() {
       setIsAdmin(isUserAdmin());
     }, 250);
   };
-
+// check if user is logged in
   useEffect(() => {
     checkLoggedIn();
   }, []);
-
+// main body of header
   return (
     <div className="navbar bg-zinc-900 z-[100] ">
       <div className="navbar-start">
