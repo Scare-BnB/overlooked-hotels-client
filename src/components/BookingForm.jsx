@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import axiosClient from "../utils/axios";
 import { useState, useEffect } from "react";
 
+
 export default function BookingForm() {
   const [locationId, setLocationId] = useState(null);
   const [startDate, setStartDate] = useState(null);

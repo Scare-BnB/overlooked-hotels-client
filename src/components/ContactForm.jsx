@@ -10,7 +10,7 @@ export default function ContactForm() {
         <label className="label">
           <span className="label-text">Message</span>
         </label>
-        <input type="message" placeholder="Type message here" className="input input-bordered" required />
+        <input type="message" placeholder="Type message here"className="input input-bordered h-40" required />
       </div>
       <div className="form-control">
   
@@ -38,11 +38,9 @@ export default function ContactForm() {
               <div className="ml-4 text-md tracking-wide font-semibold w-40">
                   jack@overlookedhotels.com
               </div>
-          </div>
-                 
+          </div>      
         </div>
       </div>
     </div>
-
     );
 }
