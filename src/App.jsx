@@ -13,6 +13,7 @@ import BookingList from "./components/admin/BookingList";
 function App() {
   return (
     <>
+    <div className="bg-zinc-900">
       <Header />
       
       <Routes>
@@ -28,6 +29,7 @@ function App() {
       </Routes>
 
       <Footer />
+      </div>
     </>
   );
 }

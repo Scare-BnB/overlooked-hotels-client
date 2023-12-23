@@ -6,12 +6,14 @@ import ReviewCarousel from "../components/ReviewCarousel";
 
 export default function LocationsPage() {
   return (
+    <div className="bg-zinc-900">
     <div className="flex flex-col min-h-screen mb-5">
       <TopCarousel />
       <Location1 />
       <Location2 />
       <Location3 />
       <ReviewCarousel />
+    </div>
     </div>
   );
 }

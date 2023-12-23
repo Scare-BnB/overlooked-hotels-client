@@ -5,7 +5,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function ReviewCarousel() {
   return (
-    <div className="flex flex-col align-items-center py-12 bg-neutral text-neutral-content">
+    <div className="bg-zinc-900">
+    <div className="flex flex-col align-items-center py-12 bg-zinc-800 text-neutral-content">
     <Carousel
         showThumbs={false}
         showIndicators={false}
@@ -46,6 +47,7 @@ export default function ReviewCarousel() {
       </div>
       
     </Carousel>
+    </div>
     </div>
   );
 }

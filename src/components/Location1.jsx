@@ -5,6 +5,7 @@ import LodgeInterior2 from "../assets/location_images/lodgeinterior2.jpg";
 
 export default function Location1() {
   return (
+   
     <div className="hero py-16">
       <div className="hero-content grid md:grid-cols-2 gap-8">
         <div className="order-2">
@@ -52,5 +53,6 @@ export default function Location1() {
         </div>
       </div>
     </div>
+    
   );
 }

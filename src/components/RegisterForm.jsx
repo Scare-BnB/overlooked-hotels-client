@@ -34,7 +34,7 @@ export default function RegisterPage() {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <form className="card-body">
-            <h1 className="text-4xl text-center mb-8">Register an Account</h1>
+            <h1 className="text-4xl text-center mb-8 ">Register an Account</h1>
             <div className="form-control">
               <label className="label">
                 <span className="label-text">First Name</span>
@@ -42,7 +42,7 @@ export default function RegisterPage() {
               <input
                 type="firstname"
                 placeholder="First name"
-                className="input input-bordered"
+                className="input input-bordered bg-base-100"
                 required
                 onChange={(event) => setFirstName(event.target.value)}
               />
@@ -54,7 +54,7 @@ export default function RegisterPage() {
               <input
                 type="lastname"
                 placeholder="Last name"
-                className="input input-bordered"
+                className="input input-bordered bg-base-100"
                 required
                 onChange={(event) => setLastName(event.target.value)}
               />
@@ -77,7 +77,7 @@ export default function RegisterPage() {
               <input
                 type="password"
                 placeholder="Password"
-                className="input input-bordered"
+                className="input input-bordered bg-base-100"
                 required
                 onChange={(event) => setPassword(event.target.value)}
               />

@@ -3,7 +3,7 @@ import LogoNoText from "../assets/logo_notext.png"
 export default function Footer() {
     return (
        
-<footer className="footer lg:flex items-center p-4 bg-neutral text-neutral-content flex-col mt-2">
+<footer className="footer lg:flex items-center p-4 text-neutral-content flex-col mt-2 bg-zinc-900">
   <aside className="items-center grid-flow-col mb-auto">
     <img
       src={LogoNoText}

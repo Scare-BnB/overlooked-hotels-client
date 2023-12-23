@@ -19,7 +19,7 @@ export default function Header() {
   }, []);
 
   return (
-    <div className="navbar bg-base-100 z-[100] ">
+    <div className="navbar bg-zinc-900 z-[100] ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -41,10 +41,10 @@ export default function Header() {
           {/* This first section is the small drop down menu when displayed on mobile */}
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-zinc-900 rounded-box w-52"
           >
             <li><Link to={"/"}>Home</Link></li>
-            <li><Link to={"/"}>About</Link></li>
+       
             <li><Link to={"/locations"}>Locations</Link></li>
          
 
@@ -75,7 +75,7 @@ export default function Header() {
           </ul>
         </div>
 
-        {/* This is the logo for the navbar */}<Link to={"/"} className="logo p-5 py-4">
+        {/* This is the logo for the navbar */}<Link to={"/"} className="logo flex p-5 py-4">
           <img
             src={OverlookedLogo}
             alt="Overlooked Hotels Logo"
@@ -88,8 +88,7 @@ export default function Header() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-20">
           <li><Link to={"/"}>Home</Link></li>
-          {/* The About link will jump to home page for now until I add jump to specific part of page */}
-          <li><Link to={"/"}>About</Link></li>
+         
           <li><Link to={"/locations"}>Locations</Link></li>
           <li><Link to={"/contact"}>Contact</Link></li>
           
@@ -123,8 +122,8 @@ export default function Header() {
         </ul>
       </div>
 
-      <div className="navbar-end">
-        <Link onClick={signOffUser} to={"/login"} className="btn">{signedIn ? "Sign Out" : "Sign In"}</Link>
+      <div className="navbar-end ">
+        <Link onClick={signOffUser} to={"/login"} className="btn" >{signedIn ? "Sign Out" : "Sign In"}</Link>
       </div>
     </div>
   );
