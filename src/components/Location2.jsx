@@ -31,12 +31,22 @@ export default function Location2() {
       
       <div>
         <h1 className="text-3xl font-bold leading-normal text-white">
-          The Wilkes Cabin
+          The Wilkes Cabin (Silver Creek, CO)
         </h1>
         <p className="py-6 text-gray-300">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        If you’re tired of the hustle and bustle of modern life and crave some serenity, The Wilkes cabin is the perfect choice. Set in a secluded area of a remote forest, you will be surrounded by the soothing sounds of nature. You won’t be distracted by your friends calling or texting you as there’s no phone service, you can even scream as loud as you like because no-one will hear you. Why not take a stroll in the crisp forest air and explore one of the many hiking trails surrounding the cabin? If you happen to take a tumble and hurt yourself, rest assured that Annie is a retired nurse and will take the best care of you.
         </p>
-        <Link to={"/login"} className="btn btn-primary mt-4" >Book now</Link>
+        <p className="text-xl font-bold py-2 text-gray-300">
+          Features
+        </p>
+        <p className=" text-gray-300">
+          <li>Cozy single bedroom</li>
+          <li>Huge library of books to read</li>
+          <li>Ensuite bathroom</li>
+          <li>Fully-equipped kitchen</li>
+        </p>
+
+        <Link to={"/login"} className="btn btn-primary mt-8" >Book now</Link>
       </div>
     </div>
 </div>
