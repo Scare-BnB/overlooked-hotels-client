@@ -30,7 +30,7 @@ export default function RegisterPage() {
   };
   return (
     // Page content
-    <div className="hero min-h-screen">
+    <div className="hero max-h-screen py-64 ">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <form className="card-body">
