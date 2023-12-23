@@ -8,13 +8,13 @@ export default function IndexPage() {
     <div className="flex flex-col min-h-screen mb-5">
       <TopCarousel />
 
-      <div className="flex flex-col min-h-screen">
+      <div>
         <HomeHero />
 
-        <div className="flex flex-col min-h-screen">
+        
           <ReviewCarousel />
         </div>
       </div>
-    </div>
+    
   );
 }

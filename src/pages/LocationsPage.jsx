@@ -5,21 +5,18 @@ import ReviewCarousel from "../components/ReviewCarousel";
 
 export default function LocationsPage() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen mb-5">
       <Location1 />
 
-      <div className="flex flex-col min-h-screen">
+    
         <Location2 />
 
-        <div className="flex flex-col min-h-screen">
+        <div>
           <Location3 />
 
-          <div className="flex flex-col min-h-screen">
           <ReviewCarousel />
         </div>
       </div>
-    </div>
-    </div>
     
   );
 }

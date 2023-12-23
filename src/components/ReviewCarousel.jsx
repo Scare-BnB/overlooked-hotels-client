@@ -4,12 +4,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function ReviewCarousel() {
   return (
-    <div className="flex align-items-center py-12 bg-neutral text-neutral-content">
+    <div className="flex flex-col align-items-center py-12 bg-neutral text-neutral-content">
     <Carousel
         showThumbs={false}
         showIndicators={false}
         showStatus={false}
         infiniteLoop
+        autoPlay
     
         >
       <div className="items-center grid-flow-col p-4 ">
