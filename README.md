@@ -1,43 +1,16 @@
 ![Overlooked Hotels Logo](./src/assets/logo.png)
-# Client side (Front End) repository
 
-### Overview
-This repository houses the code for the client-side React app. 
+# MERN Application
 
+### Deployments:
 
-### Tech Stack
-**Language**: 
-- Javascript
+- Netlify: https://theoverlookedhotels.netlify.app
+- Heroku: https://the-overlooked-hotels-fa14e4d47922.herokuapp.com/
 
-**Framework**: 
-- React
+### Repos:
 
-**Development Server**: 
-- Vite
-
-**Packages**: 
-- react-router-dom
-- Tailwind CSS
-- Daisy UI (Header and Footer elements)
-- react-responsive-carousel
-- react-calendar
-- Axios
-
-**Software**:
-- Postman
-- Pixelmator Pro 
-- Figma
-
-**Resources**:
-
-Stock images from Unsplash:
-Thanks to: 
-- Nick Hillier
-- Clay Banks
-- Steve Harvey
-- Dylan Fout
-- Mathis Jrdl
-- Eberhard Grossgasteiger
+- Client: https://github.com/Scare-BnB/overlooked-hotels-client
+- Server: https://github.com/Scare-BnB/overlooked-hotels-server
 
 
 
