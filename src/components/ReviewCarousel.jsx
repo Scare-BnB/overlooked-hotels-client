@@ -10,7 +10,6 @@ export default function ReviewCarousel() {
         showIndicators={false}
         showStatus={false}
         infiniteLoop
-
     
         >
       <div className="items-center grid-flow-col p-4 ">
@@ -38,8 +37,8 @@ export default function ReviewCarousel() {
         </div>
 
         <div className="items-center grid-flow-col p-4">
-        <p className="location">[ Location ]</p>
-      <p className="italic">"Kelsey's review goes here"</p>
+        <p className="location">[ The Grand Lodge ]</p>
+      <p className="italic">"Reasonable stay but slightly concerned about the damp smell emanating from room 237"</p>
         <p className="font-bold">- Kelsey H (Australia)</p>
        
       </div>
