@@ -7,6 +7,7 @@ import GrandLodge1 from "../assets/location_images/grandlodge1.jpg";
 import GrandLodge2 from "../assets/location_images/grandlodge2.jpg";
 import Fairvale1 from "../assets/location_images/fairvale1.jpg";
 import Fairvale2 from "../assets/location_images/fairvale2.jpg";
+import Wilkes1 from "../assets/location_images/wilkes1.jpg";
 
 export default function TopCarousel() {
   return (
@@ -33,6 +34,10 @@ export default function TopCarousel() {
       </div>
       <div>
         <img src={Fairvale2} />
+       
+      </div>
+      <div>
+        <img src={Wilkes1} />
        
       </div>
     </Carousel>

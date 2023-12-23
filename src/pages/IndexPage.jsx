@@ -10,8 +10,9 @@ export default function IndexPage() {
       <TopCarousel />
       <HomeHero />
       <img src={HomeBreak} alt="Winding Road" className="w-full h-auto" />
+      <section id="#section2">
       <AboutHero />
-
+      </section>
       <ReviewCarousel />
     </div>
   );

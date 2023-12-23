@@ -36,7 +36,17 @@ export default function Location1() {
             Redrum Bar. If relaxation is more your style, why not treat yourself to a
             day of pampering at The Green Lady spa, because you've earned it.
           </p>
-          <Link to={"/login"} className="btn btn-primary mt-4">
+          <p className="text-xl font-bold py-2 text-gray-300">
+          Features
+        </p>
+        <p className=" text-gray-300">
+          <li>Luxury rooms with stunning views</li>
+          <li>Valet parking</li>
+          <li>Ensuite bathroom</li>
+          <li>Onsite day-spa</li>
+        </p>
+
+          <Link to={"/login"} className="btn btn-primary mt-8">
             Book now
           </Link>
         </div>
