@@ -1,6 +1,7 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+// This element was a "nice to have" we ran out of time to integrate with the back-end. So it is just dummy reviews
 
 export default function ReviewCarousel() {
   return (
