@@ -25,7 +25,7 @@ export default function LoginPage() {
     }
   };
   return (
-    <div className="hero max-h-screen py-48 ">
+    <div className="hero max-h-screen py-36 ">
     <div className="hero-content flex-col lg:flex-row-reverse">
       <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
         <form className="card-body">

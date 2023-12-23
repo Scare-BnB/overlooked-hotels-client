@@ -1,18 +1,33 @@
 import { Link } from "react-router-dom";
+import { Carousel } from "react-responsive-carousel";
+import WilkesInterior1 from "../assets/location_images/wilkesinterior1.jpg";
 
 export default function Location2() {
     return (
-    
-      <div className="hero py-32">
+          
+      <div className="hero py-16">
       <div className="hero-content grid md:grid-cols-2 gap-8">
-      <div className="object-left">
- 
-        {/* <img
-          src={hero_img}
-          className=""
-          alt="Hero" */}
-        {/* /> */}
+      <div className="order-2">
+      
+        <Carousel
+        showThumbs={true}
+        showIndicators={true}
+        showStatus={false}
+        infiniteLoop
+       
+        >
+      <div>
+        <img src={WilkesInterior1} className="rounded-3xl"/>
+       
       </div>
+      <div>
+        <img src={WilkesInterior1} className="rounded-3xl"/>
+  
+      </div>
+      
+    </Carousel>
+    </div>
+      
       <div>
         <h1 className="text-3xl font-bold leading-normal text-white">
           The Wilkes Cabin
@@ -22,8 +37,9 @@ export default function Location2() {
         </p>
         <Link to={"/login"} className="btn btn-primary mt-4" >Book now</Link>
       </div>
-      </div>
-      </div>
+    </div>
+</div>
+  
 
 
     );

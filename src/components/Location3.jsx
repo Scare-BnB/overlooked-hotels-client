@@ -1,17 +1,33 @@
 import { Link } from "react-router-dom";
+import { Carousel } from "react-responsive-carousel";
+import FairvaleInterior1 from "../assets/location_images/fairvaleinterior1.jpg"
 
 export default function Location3() {
     return (
     
-      <div className="hero py-32">
+      <div className="hero py-16">
       <div className="hero-content grid md:grid-cols-2 gap-8">
       <div className="order-2">
-        {/* <img
-          src={hero_img}
-          className=""
-          alt="Hero" */}
-        {/* /> */}
+      
+        <Carousel
+        showThumbs={true}
+        showIndicators={true}
+        showStatus={false}
+        infiniteLoop
+       
+        >
+      <div>
+        <img src={FairvaleInterior1} className="rounded-3xl"/>
+       
       </div>
+      <div>
+        <img src={FairvaleInterior1} className="rounded-3xl"/>
+  
+      </div>
+      
+    </Carousel>
+    </div>
+      
       <div>
         <h1 className="text-3xl font-bold leading-normal text-white">
           The Fairvale Motel
@@ -23,5 +39,6 @@ export default function Location3() {
       </div>
     </div>
 </div>
+  
     );
 }

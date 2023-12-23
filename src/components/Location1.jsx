@@ -1,17 +1,34 @@
 import { Link } from "react-router-dom";
+import { Carousel } from "react-responsive-carousel";
+import LodgeInterior1 from "../assets/location_images/lodgeinterior1.jpg"
+import LodgeInterior2 from "../assets/location_images/lodgeinterior2.jpg"
 
 export default function Location1() {
     return (
     
-      <div className="hero py-32">
+      <div className="hero py-16">
       <div className="hero-content grid md:grid-cols-2 gap-8">
       <div className="order-2">
-        {/* <img
-          src={hero_img}
-          className=""
-          alt="Hero" */}
-        {/* /> */}
+      
+        <Carousel
+        showThumbs={true}
+        showIndicators={true}
+        showStatus={false}
+        infiniteLoop
+       
+        >
+      <div>
+        <img src={LodgeInterior1} className="rounded-3xl"/>
+       
       </div>
+      <div>
+        <img src={LodgeInterior2} className="rounded-3xl"/>
+  
+      </div>
+      
+    </Carousel>
+    </div>
+      
       <div>
         <h1 className="text-3xl font-bold leading-normal text-white">
           The Grand Lodge
@@ -23,5 +40,6 @@ export default function Location1() {
       </div>
     </div>
 </div>
+
     );
 }
