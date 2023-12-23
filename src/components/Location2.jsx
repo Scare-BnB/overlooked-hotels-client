@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import WilkesInterior1 from "../assets/location_images/wilkesinterior1.jpg";
+import WilkesInterior2 from "../assets/location_images/wilkesinterior2.jpg";
 
 export default function Location2() {
     return (
@@ -21,7 +22,7 @@ export default function Location2() {
        
       </div>
       <div>
-        <img src={WilkesInterior1} className="rounded-3xl"/>
+        <img src={WilkesInterior2} className="rounded-3xl"/>
   
       </div>
       

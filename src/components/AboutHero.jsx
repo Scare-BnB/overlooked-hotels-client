@@ -1,17 +1,18 @@
+import logo from "../assets/logo.png";
 
 export default function AboutHero() {
     return (
      
   
       <div className="hero py-32">
-      <div className="hero-content grid md:grid-cols-2 gap-8">
-      <div className="object-left">
+      <div className="hero-content grid md:grid-cols-2 gap-48">
+      <div className="order-1">
  
-        {/* <img
-          src={hero_img}
+        <img
+          src={logo}
           className=""
-          alt="Hero" */}
-        {/* /> */}
+          alt="Logo" 
+        />
       </div>
       <div>
         <h1 className="text-3xl font-bold leading-normal text-white">
